@@ -1,0 +1,400 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+html{
+  min-height: 100%;
+background-color: #121212;
+scroll-behavior: smooth;
+}
+
+
+
+
+
+
+ 
+  #menu{
+    z-index: 66;
+  }
+
+nav #gal a {
+  color: rgba(184,55,230,1) !important;
+}
+
+  nav{
+    border-radius: 20px;
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.8);
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+  }
+  
+  ul li{
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  li{
+    margin: 20px 30px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover{
+    color: rgba(184,55,230,1);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 66;
+    color: whitesmoke;
+  }
+
+
+
+
+
+
+ body{
+    height: 100%;
+    z-index: 0;
+  
+  }
+  
+.naglowek1{
+  color:whitesmoke;
+  width: 100%;
+  font-size: 70px;
+ text-align: center;
+ transform: translate(0, 200px);
+ text-shadow: 0 0 2px rgba(184,55,230,1), 0 0 10px rgba(184,55,230,1), 0 0 20px rgba(184,55,230,1);
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+*/
+
+
+.box3{
+  position: relative;
+  max-width: 900px;
+  max-height: 700px;
+  font-size: 20px;
+  margin: 350px auto 150px;
+  color: whitesmoke;
+  background-color: rgb(38, 38, 38);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(254, 193, 35), 0 0 40px  rgb(254, 193, 35), 0 0 80px rgb(254, 193, 35);
+  padding: 20px;
+}
+
+.box3 h2{
+  margin: 40px 10px 50px 20px ;
+  color:  rgb(254, 193, 35);
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+
+.opisstanowiska{
+  margin: 50px 20px 20px;
+  text-align:left;
+}
+
+.logo{
+  top: 30px;
+  right: 30px;
+  max-width: 80px;
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.logo img{
+
+width: 100%;
+display: block;
+border-radius: 50%;
+}
+
+.white{
+  color: rgb(254, 193, 35);
+}
+
+
+
+
+
+.box4{
+  position: relative;
+  max-width: 900px;
+  max-height: 700px;
+  font-size: 20px;
+  margin: 150px auto;
+  color: whitesmoke;
+  background-color: rgb(38, 38, 38);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(254, 35, 35), 0 0 40px  rgb(254, 35, 35), 0 0 80px rgb(254, 35, 35);
+  padding: 20px;
+}
+
+.box4 h2{
+  margin: 40px 10px 50px 20px ;
+  color:  rgb(254, 35, 35);
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+
+.opisstanowiska{
+  margin: 50px 20px 20px;
+  text-align:left;
+}
+
+.box4 .logo{
+  top: 10px;
+  right: 30px;
+  max-width: 80px;
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  color: rgb(254, 35, 35);
+  font-size: 4rem;
+  cursor: default;
+  text-align: center;
+}
+
+.logo h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.red{
+  color:rgb(254, 35, 35);
+}
+
+
+
+
+
+
+
+.box1{
+  position: relative;
+  max-width: 900px;
+  max-height: 700px;
+  font-size: 20px;
+  margin: 150px auto;
+  color: whitesmoke;
+  background-color: rgb(38, 38, 38);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(231,91,41,1), 0 0 40px  rgba(231,91,41,1), 0 0 80px  rgba(231,91,41,1);
+  padding: 20px;
+}
+
+h2{
+  margin: 40px 10px 50px 20px ;
+  color:  rgba(231,91,41,1);
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+
+.opisstanowiska{
+  margin: 50px 20px 20px;
+  text-align:left;
+}
+
+.logo{
+  top: 30px;
+  right: 30px;
+  max-width: 80px;
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.logo img{
+
+width: 100%;
+display: block;
+border-radius: 50%;
+}
+
+.orange{
+  color: rgba(231,91,41,1);
+}
+
+
+
+
+.box2{
+  position: relative;
+  max-width: 900px;
+  max-height: 700px;
+  font-size: 20px;
+  margin: 150px auto;
+  color: whitesmoke;
+  background-color: rgb(38, 38, 38);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(112,133,220,1), 0 0 40px  rgba(112,133,220,1), 0 0 80px  rgba(112,133,220,1);
+  padding: 20px;
+}
+
+.box2 h2{
+  margin: 40px 10px 50px 20px ;
+  color:  rgba(112,133,220,1);
+}
+
+h3{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+h4{
+  font-size: 15px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+
+.opisstanowiska{
+  margin: 50px 20px 20px;
+  text-align:left;
+}
+
+.logo{
+  top: 30px;
+  right: 30px;
+  max-width: 80px;
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.logo img{
+
+width: 100%;
+display: block;
+border-radius: 50%;
+}
+
+.blue{
+  color: rgba(112,133,220,1);
+}
+/*-------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #121212; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgba(184,55,230,1); 
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107,228,163,1); 
+}
