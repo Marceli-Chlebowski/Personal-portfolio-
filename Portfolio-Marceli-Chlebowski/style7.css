@@ -398,3 +398,86 @@ border-radius: 50%;
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(107,228,163,1); 
 }
+#hamburger-btn {
+  display: none; /* Ukryj przycisk na początku */
+}
+
+/* Dodane media queries dla dostosowania do urządzeń mobilnych */
+
+/* Dla ekranów o maksymalnej szerokości 768px */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Zmniejszenie rozmiaru czcionki dla lepszej czytelności */
+  }
+
+  #menu {
+    margin: 20px 0; /* Skrócenie marginesu dla lepszego dostosowania menu nawigacyjnego */
+  }
+
+  nav ul {
+    flex-direction: column; /* Ustawienie elementów listy w kolumnie dla lepszego układu na małych ekranach */
+  }
+
+  nav li {
+    margin: 10px 0; /* Skrócenie marginesów elementów listy */
+  }
+  .spisprac {
+    margin: 0 40px;
+  }
+}
+
+#hamburger-btn {
+  display: none; /* Ukryj przycisk na początku */
+  position: absolute; /* Zmiana na absolutną */
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: rgba(112,133,220,1);
+  cursor: pointer;
+  z-index: 9999; /* Ustaw z-index, aby przycisk był na wierzchu */
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    display: none; /* Ukryj menu na początku na małych ekranach */
+    position: absolute;
+    top: -10px; /* Ustawienie odległości od góry ekranu */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background:hsla(0, 0%, 100%, 0.8); /* Tło menu */
+    padding: 20px 0; /* Dodatkowy padding dla lepszego wyglądu */
+    z-index: 999; /* Ustaw z-index, aby menu było na wierzchu */
+  }
+
+  #menu.open {
+    display: block; /* Pokaż menu po kliknięciu */
+    font-size: 100px;
+  }
+
+  nav ul {
+    margin-top: -10px ;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    display: block; /* Wyświetlaj każdy element <li> jako blok */
+    margin: 10px; /* Dodatkowy odstęp między elementami */
+  }
+
+  nav a {
+    display: block; /* Wyświetlaj linki jako bloki */
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+
+
+  #hamburger-btn {
+    display: block; /* Pokaż przycisk hamburgera na małych ekranach */
+  }
+
+}

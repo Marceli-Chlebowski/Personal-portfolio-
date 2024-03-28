@@ -72,7 +72,7 @@ nav #main a {
   body {
    
     color: #fff;
-  --var-color: rgba(107,228,163,1);
+  --var-color: rgba(184,55,230,1);
   background-image: url(odessa11.jpg);
   background-repeat: initial;
   background-size: cover;
@@ -475,6 +475,10 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(107,228,163,1); 
 }
+#hamburger-btn {
+  display: none; /* Ukryj przycisk na początku */
+}
+
 
 /* Dodane media queries dla dostosowania do urządzeń mobilnych */
 

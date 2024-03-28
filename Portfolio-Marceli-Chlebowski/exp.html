@@ -38,7 +38,27 @@
     <span class="timeel seconds">00</span>
     <span class="timeel timeRefSeconds">seconds</span>
   </div>
+    <script>
+      // Funkcja obsługująca przycisk hamburgera
+      function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
 
+      // Event listener do przycisku hamburgera
+      document.addEventListener("DOMContentLoaded", function() {
+        var hamburgerButton = document.createElement("button");
+        hamburgerButton.innerHTML = "&#9776;"; // Unicode dla ikony hamburgera
+        hamburgerButton.setAttribute("id", "hamburger-btn");
+        hamburgerButton.addEventListener("click", toggleMenu);
+        document.body.appendChild(hamburgerButton);
+      });
+
+    </script>
 </body>
   <article>
     <footer><h6>© Marceli Chlebowski 2022. All rights reserved.</h6></footer> 
