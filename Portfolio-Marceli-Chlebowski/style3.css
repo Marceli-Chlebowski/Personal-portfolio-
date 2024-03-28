@@ -243,8 +243,8 @@ color: rgba(112,133,220,1);
   @media screen and (max-width: 768px) {
     body {
       font-size: 16px; /* Zmniejszenie rozmiaru czcionki dla lepszej czytelności */
+      zoom: 0.7;
     }
-
     #menu {
       margin: 20px 0; /* Skrócenie marginesu dla lepszego dostosowania menu nawigacyjnego */
     }

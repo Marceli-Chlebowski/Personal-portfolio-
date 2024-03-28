@@ -166,6 +166,7 @@ nav a:hover{
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px; /* Zmniejszenie rozmiaru czcionki dla lepszej czytelności */
+    zoom: 0.7;
   }
 
   #menu {
@@ -207,36 +208,6 @@ nav a:hover{
     margin-top: 30px; /* Skrócenie marginesu */
   }
 
-  #ostatnie p {
-    margin: 5px 20px; /* Skrócenie marginesów */
-    font-size: 14px; /* Zmniejszenie rozmiaru czcionki */
-  }
-
-  #ostatnie a {
-    margin-top: 20px; /* Skrócenie marginesu */
-    width: 150px; /* Zmniejszenie szerokości przycisku */
-    height: 50px; /* Zmniejszenie wysokości przycisku */
-    line-height: 50px; /* Dopasowanie linii do wysokości przycisku */
-  }
-
-  #project1 {
-    margin-top: 150px; /* Skrócenie marginesu dla lepszego układu */
-    font-size: 24px; /* Zmniejszenie rozmiaru czcionki */
-  }
-
-  #project4 {
-    margin-top: 150px; /* Skrócenie marginesu dla lepszego układu */
-    font-size: 24px; /* Zmniejszenie rozmiaru czcionki */
-  }
-  #pg a {
-    float: none; /* Anuluj ustawienia dla małych ekranów */
-    margin-top: 220px;
-  }
-
-  #pg  {
-    margin-top: 100px; /* Drobne dostosowanie marginesów */
-  }
-
 }
 
 #hamburger-btn {
@@ -269,6 +240,12 @@ nav a:hover{
     display: block; /* Pokaż menu po kliknięciu */
     font-size: 100px;
   }
+
+  .countup{
+    zoom: 0.8;
+    margin: 0 30px;
+  }
+
 
   nav ul {
     margin-top: -10px ;
