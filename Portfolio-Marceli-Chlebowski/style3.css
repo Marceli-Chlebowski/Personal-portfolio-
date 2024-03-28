@@ -274,46 +274,6 @@ color: rgba(112,133,220,1);
       margin-top: 100px; /* Skrócenie marginesu dla lepszej widoczności */
     }
 
-    #title2 {
-      font-size: 30px; /* Zmniejszenie rozmiaru czcionki */
-      margin-top: 100px; /* Skrócenie marginesu dla lepszej widoczności */
-    }
-
-    h3 {
-      font-size: 20px; /* Zmniejszenie rozmiaru czcionki */
-      margin-top: 30px; /* Skrócenie marginesu */
-    }
-
-    #ostatnie p {
-      margin: 5px 20px; /* Skrócenie marginesów */
-      font-size: 14px; /* Zmniejszenie rozmiaru czcionki */
-    }
-
-    #ostatnie a {
-      margin-top: 20px; /* Skrócenie marginesu */
-      width: 150px; /* Zmniejszenie szerokości przycisku */
-      height: 50px; /* Zmniejszenie wysokości przycisku */
-      line-height: 50px; /* Dopasowanie linii do wysokości przycisku */
-    }
-
-    #project1 {
-      margin-top: 150px; /* Skrócenie marginesu dla lepszego układu */
-      font-size: 24px; /* Zmniejszenie rozmiaru czcionki */
-    }
-
-    #project4 {
-      margin-top: 150px; /* Skrócenie marginesu dla lepszego układu */
-      font-size: 24px; /* Zmniejszenie rozmiaru czcionki */
-    }
-    #pg a {
-      float: none; /* Anuluj ustawienia dla małych ekranów */
-      margin-top: 220px;
-    }
-
-    #pg  {
-      margin-top: 100px; /* Drobne dostosowanie marginesów */
-    }
-
   }
 
   #hamburger-btn {
@@ -368,6 +328,17 @@ color: rgba(112,133,220,1);
 
     #hamburger-btn {
       display: block; /* Pokaż przycisk hamburgera na małych ekranach */
+    }
+
+    .kontkat{
+      margin: 200px 40px;
+      font-size: 14px;
+    }
+    .mail{
+      width: 100%;
+    }
+    .thanks{
+      font-size: 20px;
     }
 
   }
