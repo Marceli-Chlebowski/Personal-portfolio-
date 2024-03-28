@@ -166,7 +166,7 @@ nav a:hover{
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px; /* Zmniejszenie rozmiaru czcionki dla lepszej czytelności */
-    zoom: 0.7;
+    zoom: 0.8;
   }
 
   #menu {
@@ -179,33 +179,6 @@ nav a:hover{
 
   nav li {
     margin: 10px 0; /* Skrócenie marginesów elementów listy */
-  }
-
-  .neon {
-    transform: translate(0, -2rem); /* Przesunięcie efektu neonu dla lepszej widoczności */
-  }
-
-  h1 {
-    font-size: 60px; /* Zmniejszenie rozmiaru nagłówka */
-    margin-top: 100px; /* Skrócenie marginesu dla lepszego wyglądu */
-  }
-
-  hr.line {
-    width: 80%; /* Zmniejszenie szerokości linii */
-  }
-
-  hr {
-    margin-top: 100px; /* Skrócenie marginesu dla lepszej widoczności */
-  }
-
-  #title2 {
-    font-size: 30px; /* Zmniejszenie rozmiaru czcionki */
-    margin-top: 100px; /* Skrócenie marginesu dla lepszej widoczności */
-  }
-
-  h3 {
-    font-size: 20px; /* Zmniejszenie rozmiaru czcionki */
-    margin-top: 30px; /* Skrócenie marginesu */
   }
 
 }
@@ -242,10 +215,14 @@ nav a:hover{
   }
 
   .countup{
-    zoom: 0.8;
-    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
+  .countup
+  span{
+    width: 30%;
+  }
 
   nav ul {
     margin-top: -10px ;
