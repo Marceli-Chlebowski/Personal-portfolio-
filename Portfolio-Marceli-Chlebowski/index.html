@@ -1,85 +1,92 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<title>Marceli Chlebowski</title>
-  </head>
-<header>
-  <nav id="menu">
-    <ul>
-      <li id="main"><a href="index.html">&lt;Main&gt;</a></li>
-      <li><a href="aboutme.html">&lt;About Me&gt;</a></li>
-      <li><a href="exp.html">&lt;Experience&gt;</a></li>
-      <li><a href="gal.html">&lt;IT Jobs&gt;</a></li>
-      <li><a href="contact.html">&lt;Contact&gt;</a></li>
-    </ul>
-  </nav>
-</header>
+    <link rel="stylesheet" href="style.css">
+    <title>Marceli Chlebowski</title>
+</head>
 <body onload="myFunction()" style="margin:0;">
-  <div id="loader"><div></div><div></div><div></div></div>
-  <div style="display:none;" id="mypage" class="animate-bottom">
-  <div class="front">
-  <h1>Marceli Chlebowski</h1>
-  <hr class="line">
-  <div>
-  <div class="neon">
-  <div data-text="IT Developer" class="light">IT Developer</div>
-  </div>
-      <hr>
-  </div>
-      <br>
-      <h2 id='title2'>Current Occupation:</h2>
-  </div>
- <section class="upper">
-      <div class="end">
-    <div id='ostatnie'>
-       <h3 id='project1'>Student at PJATK</h3>
-       <p>I am currently studying at the Polish Japanese Academy of Information Technology, this is my main occupation because I am a full-time student, during the holidays I try to gain new practices and experience in the IT industry
-       <br>
-       <a id='readmore1' target="_blank" href='https://pja.edu.pl'><svg><rect></rect></svg>Visit Site</a></p>
+<header>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">&lt;Main&gt;</a></li>
+            <li><a href="aboutme.html">&lt;About Me&gt;</a></li>
+            <li><a href="exp.html">&lt;Experience&gt;</a></li>
+            <li><a href="gal.html">&lt;IT Jobs&gt;</a></li>
+            <li><a href="contact.html">&lt;Contact&gt;</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="loader"><div></div><div></div><div></div></div>
+<div style="display:none;" id="mypage" class="animate-bottom">
+    <div class="front">
+        <h1>Marceli Chlebowski</h1>
+        <hr class="line">
+        <div>
+            <div class="neon">
+                <div data-text="IT Developer" class="light">IT Developer</div>
+            </div>
+            <hr>
+        </div>
+        <br>
+        <h2 id='title2'>Current Occupation:</h2>
     </div>
-  </section>
-
-  <section class="lower">
-     <div id="pg">
-      <h3 id="project4">Find out more</h3>
-       <p><a href='gal.html'>
-         <span></span>
-         <span></span>
-         <span></span>
-         <span></span>
-         My Experience
-       </a></p>
-     </div>
-  </section>
-
-      </div>
-
-
-      <script>
-        var myVar;
-        
-        function myFunction() {
-          myVar = setTimeout(showPage, 1000);
-        }
-        
-        function showPage() {
-          document.getElementById("loader").style.display = "none";
-          document.getElementById("mypage").style.display = "block";
-        }
-        </script>
-  
-</body>
-
-
-
-<article>
- <footer><h6>© Marceli Chlebowski 2022. All rights reserved.</h6></footer> 
-</article>
-
+    <section class="upper">
+        <div class="end">
+            <div id='ostatnie'>
+                <h3 id='project1'>Student at PJATK</h3>
+                <p>I am currently studying at the Polish Japanese Academy of Information Technology, this is my main occupation because I am a full-time student, during the holidays I try to gain new practices and experience in the IT industry
+                    <br>
+                    <a id='readmore1' target="_blank" href='https://pja.edu.pl'><svg><rect></rect></svg>Visit Site</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="lower">
+        <div id="pg">
+            <h3 id="project4">Find out more</h3>
+            <p><a href='gal.html'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                My Experience
+            </a></p>
+        </div>
+    </section>
 </div>
+<footer><h6>© Marceli Chlebowski 2022. All rights reserved.</h6></footer>
+<script>
+    var myVar;
+    function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+    }
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("mypage").style.display = "block";
+    }
+    // Funkcja obsługująca przycisk hamburgera
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+
+    // Event listener do przycisku hamburgera
+    document.addEventListener("DOMContentLoaded", function() {
+        var hamburgerButton = document.createElement("button");
+        hamburgerButton.innerHTML = "&#9776;"; // Unicode dla ikony hamburgera
+        hamburgerButton.setAttribute("id", "hamburger-btn");
+        hamburgerButton.addEventListener("click", toggleMenu);
+        document.body.appendChild(hamburgerButton);
+    });
+
+</script>
+</body>
 </html>
