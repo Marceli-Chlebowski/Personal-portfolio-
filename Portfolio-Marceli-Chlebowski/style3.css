@@ -332,14 +332,15 @@ color: rgba(112,133,220,1);
 
     .kontkat{
       margin: 200px 40px;
-      font-size: 14px;
+      font-size: 10px;
+      padding: 20px;
     }
     .mail, .tel{
-      margin-left: -30px ;
       width: 100%;
     }
+
     .thanks{
-      font-size: 20px;
+      font-size: 15px;
     }
 
   }
