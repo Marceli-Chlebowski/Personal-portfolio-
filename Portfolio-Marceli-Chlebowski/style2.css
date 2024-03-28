@@ -548,9 +548,7 @@ footer{
     zoom: 0.8;
   }
 
-  .iam{
-    margin: -300px 0 0 ;
-  }
+
 
   #menu {
     margin: 20px 0; /* Skrócenie marginesu dla lepszego dostosowania menu nawigacyjnego */
@@ -568,6 +566,13 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 40px;
+  }
+
+  .omnie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 500px 40px;
   }
 
   /* Stylowanie dla sekcji "CV" */
