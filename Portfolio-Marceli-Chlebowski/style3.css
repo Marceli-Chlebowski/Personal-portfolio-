@@ -336,6 +336,7 @@ color: rgba(112,133,220,1);
       padding: 20px;
     }
     .mail, .tel{
+      margin-left: -10px;
       width: 100%;
     }
 
