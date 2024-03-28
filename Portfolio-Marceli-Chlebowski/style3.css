@@ -334,7 +334,8 @@ color: rgba(112,133,220,1);
       margin: 200px 40px;
       font-size: 14px;
     }
-    .mail{
+    .mail, .tel{
+      margin-left: -30px ;
       width: 100%;
     }
     .thanks{
